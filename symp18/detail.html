@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SoCal NLP Symposium 2018</title>
+        <meta name="description" content="Welcome to the Southern California Natural Language Processing Symposium 2018!">
+        <meta name="keywords" content="SoCal,NLP,Symposium,Southern California,Natural Language Processing,Machine Learning,Deep Learning">
+        <meta name="author" content="SoCal NLP Symposium Organizers">
+
+        <link rel="icon" href="static/favicon.ico">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="header-desc">
+                <p style="font-size:2rem;">SoCal NLP Symposium 2018</p>
+                <p style="font-size:1.5rem;">University of California, Irvine | April 6, 2018</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                <a class="navbar-brand"><b>The Details of Invited Talks</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+
+        <br/>
+
+        <div id="kaiwei" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Kai-Wei Chang</h4>
+                    <hr>
+                    <h5>Men Also Like Shopping: Reducing Societal Bias in Natural Language Processing Models</h5>
+                    <p>
+                    Machine learning techniques have played a major role in natural language processing. In these data-driven approaches, an automated system learns how to make decisions based on the statistics and diagnostic information from collected data. Despite these methods being successful in various applications, they run the risk of discovering and exploiting societal biases present in the underlying data. For instance, an automatic resume filtering system may inadvertently select candidates based on their gender and race due to implicit associations between applicant names and job titles, causing the system to perpetuate unfairness potentially. Without properly quantifying and reducing the reliance on such correlations, broad adoption of these models can work to magnify stereotypes or implicit biases. In this talk, I will describe a collection of results that quantifying and reducing gender bias in natural language processing models, including word embeddings and models for visual semantic role labeling and coreference resolution. I will also discuss our other projects on natural language processing for social good.
+                    </p>
+                    <h5>Biography</h5>
+                    <p>
+                    Kai-Wei Chang is an assistant professor in the Department of Computer Science at the University of California, Los Angeles. He has published broadly in machine learning and natural language processing. His research has mainly focused on designing machine learning methods for handling large and complex data. He has been involved in developing several machine learning libraries, including LIBLINEAR,Vowpal Wabbit, and Illinois-SL. He was an assistant professor at the University of Virginia in 2016-2017. He obtained his Ph.D. from the University of Illinois at Urbana-Champaign in 2015 and was a post-doctoral researcher at Microsoft Research in 2016. Kai-Wei was awarded the EMNLP Best Long Paper Award (2017),  KDD Best Paper Award (2010), and the Yahoo! Key Scientific Challenges Award (2011).
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="marilyn" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Marilyn Walker</h4>
+                    <hr>
+                    <h5>Modelling Narrative Structure in Informal First-Person Narratives</h5>
+                    <p>
+                    Many genres of natural language text are narratively structured, reflecting the human bias towards organizing our experiences as narratives. Understanding narrative structure in full requires many discourse-level NLP components, including modeling the motivations, goals and desires of the protagonists, modelling the affect states of the protagonists and their transitions across story timepoints, and modelling the causal links between story events. This talk will focus on our recent work on modeling first-person participant goals and desires and their outcomes. I describe DesireDB, a collection of personal first-person stories from the Spinn3r corpus, which are annotated for  statements of desire, textual evidence for desire fulfillment, and whether the stated desire is fulfilled given the evidence in the narrative context. I will describe experiments on tracking desire fulfillment using different methods, and show that a LSTM Skip-Thought model using the context both before and after the desire statement achieves an F-Measure of 0.7 on the corpus. I will also  briefly discuss our work on modelling affect states and causal links between story events on the same corpus of informal stories.
+                    <br/>
+                    The presented work was jointly conducted with Elahe Rahimtoroghi, Jiaqi Wu, Pranav Anand and Ruimin Wang.    
+                    </p>
+                    <h5>Biography</h5>
+                    <p>
+                    Marilyn Walker, is a Professor of Computer Science at UC Santa Cruz, and a fellow of the Association for Computational Linguistics (ACL), in recognition of her for fundamental contributions to statistical methods for dialog optimization, to centering theory, and to expressive generation for dialog. Her current research includes work on computational models of dialogue interaction and conversational agents, analysis of affect, sarcasm and other social phenomena in social media dialogue, acquiring causal knowledge from text, conversational summarization, interactive story and narrative generation, and statistical methods for training the dialogue manager and the language generation engine for dialogue systems. Before coming to Santa Cruz in 2009, Walker was a professor of computer science at the University of Sheffield. From 1996 to 2003, she was a principal member of the research staff at AT&T Bell Labs and AT&T Research, where she worked on the AT&T Communicator project, developing a new architecture for spoken dialogue systems and statistical methods for dialogue management and generation. Walker has published more than 200 papers and has more than 10 U.S. patents granted. She earned an M.S. in computer science at Stanford University, and a Ph.D. in computer science at the University of Pennsylvania.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="chris" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Christopher Ré</h4>
+                    <hr>
+                    <h5>Snorkel: Beyond Hand-Labeled Data</h5>
+                    <p>
+                    This talk describes Snorkel, a software system whose goal is to make routine machine learning tasks dramatically easier. Snorkel focuses on a key bottleneck in the development of machine learning systems: the lack of large training datasets for a user’s task. In Snorkel, a user implicitly defines large training sets by writing simple programs that create labeled data, instead of tediously hand-labeling individual data items. In turn, this allows users to incorporate many sources of training data, some of low quality, to build high-quality models. This talk will describe how Snorkel changes the way users program machine learning models. A key technical challenge in Snorkel is combining heuristic training data that may have uneven and unknown quality and an unknown correlation structure. This talk will explain the underlying theory, including methods to learn both the parameters and structure of generative models without labeled data. Additionally we’ll describe our recent experiences with hackathons, which suggest the Snorkel approach may allow a broader set of users to train machine learning models and do so more easily than previous approaches. 
+                    <br/>
+                    Snorkel is being used by scientists in areas including genomics and drug repurposing, by a number of companies involved in various forms of search, and by law enforcement in the fight against human trafficking. Snorkel is open source on github. Technical blog posts and tutorials are available at <a href="http://snorkel.stanford.edu" target="_blank">snorkel.stanford.edu</a>.    
+                    </p>
+                    <h5>Biography</h5>
+                    <p>
+                    Christopher (Chris) Ré is an associate professor in the Department of Computer Science at Stanford University who is affiliated with the Statistical Machine Learning Group, Pervasive Parallelism Lab, and Stanford AI Lab. His work's goal is to enable users and developers to build applications that more deeply understand and exploit data. His contributions span database theory, database systems, and machine learning, and his work has won best paper at a premier venue in each area, respectively, at PODS 2012, SIGMOD 2014, and ICML 2016. In addition, work from his group has been incorporated into major scientific and humanitarian efforts, including the IceCube neutrino detector, PaleoDeepDive and MEMEX in the fight against human trafficking, and into commercial products from major web and enterprise companies. He cofounded a company, based on his research, that was acquired by Apple in 2017. He received a SIGMOD Dissertation Award in 2010, an NSF CAREER Award in 2011, an Alfred P. Sloan Fellowship in 2013, a Moore Data Driven Investigator Award in 2014, the VLDB early Career Award in 2015, the MacArthur Foundation Fellowship in 2015, and an Okawa Research Grant in 2016.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="dhruv" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Dhruv Batra</h4>
+                    <hr>
+                    <h5>Visual Dialog: Towards AI Agents that Can See, Talk, and Act</h5>
+                    <p>
+                    We are witnessing unprecedented advances in computer vision and artificial intelligence (AI). What lies next for AI? We believe that the next generation of intelligent systems (say the next generation of Google's Assistant, Facebook's M, Apple's Siri, Amazon's Alexa) will need to possess the ability to "perceive" their environment (through vision, audition, or other sensors), "communicate" (i.e., hold a natural language dialog with humans and other agents), and "act" (e.g., aid humans by executing API calls or commands in a virtual or embodied environment), for scenarios such as aiding visually impaired users in understanding their surroundings, aiding analysts in making decisions based on large quantities of surveillance data, and natural language interfaces for robotics. In this talk, I will present a range of projects from my lab (some in collaboration with Prof. Devi Parikh's lab) towards building such visually grounded conversational (and sometimes embodied) agents.    
+                    </p>
+                    <h5>Biography</h5>
+                    <p>
+                    Dhruv Batra is an Assistant Professor in the School of Interactive Computing at Georgia Tech and a Research Scientist at Facebook AI Research (FAIR). He is a recipient of the Office of Naval Research (ONR) Young Investigator Program (YIP) award (2016), the National Science Foundation (NSF) CAREER award (2014), Army Research Office (ARO) Young Investigator Program (YIP) award (2014), Virginia Tech College of Engineering Outstanding New Assistant Professor award (2015), two Google Faculty Research Awards (2013, 2015), Amazon Academic Research award (2016), Carnegie Mellon Dean's Fellowship (2007), and several best paper awards (EMNLP 2017, ICML workshop on Visualization for Deep Learning 2016, ICCV workshop Object Understanding for Interaction 2016) and teaching commendations at Virginia Tech. His research is supported by NSF, ARO, ARL, ONR, DARPA, Amazon, Google, Microsoft, and NVIDIA. Research from his lab has been extensively covered in the media (with varying levels of accuracy) at CNN, BBC, CNBC, Bloomberg Business, The Boston Globe, MIT Technology Review, Newsweek, The Verge, New Scientist, and NPR. 
+                    <br/>
+                    His research interests lie at the intersection of machine learning, computer vision, natural language processing, and AI, with a focus on developing intelligent systems that are able to concisely summarize their beliefs about the world with diverse predictions, integrate information and beliefs across different sub-components or "modules" of AI (vision, language, reasoning, dialog, navigation), and interpretable AI systems that provide explanations and justifications for why they believe what they believe.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <div id="sujith" class="container" align="justify">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <h4>Sujith Ravi</h4>
+                    <hr>
+                    <h5>Neural Structured Prediction for Language and Vision</h5>
+                    <p>
+                    Recent machine learning advances have enabled us to build intelligent systems that understand semantics from speech, natural language text and images. While great progress has been made in many AI fields, building scalable intelligent systems from "scratch" still remains a daunting challenge for many applications. To overcome this, we leverage and model dependencies inherent in data using the power of graph algorithms since they offer a simple elegant way to express different types of relationships observed in data and can concisely encode structure underlying a problem. In this talk I will focus on "How can we combine the flexibility of graphs with the power of deep learning?".
+                    <br/>
+                    I will describe how we address these challenges and design efficient algorithms by employing graph-based machine learning as a computing mechanism to solve real-world prediction tasks. Our graph-based machine learning framework can operate at large scale and easily handle massive graphs (containing billions of vertices and trillions of edges) and make predictions over billions of output labels while achieving O(1) space complexity per vertex. In particular, we combine graph learning with deep neural networks to power a number of machine intelligence applications, including conversational models for Smart Reply, image recognition and video summarization to tackle complex language understanding and computer vision problems. l will also introduce some of our latest research and share results on "neural graph learning", a new joint optimization framework for combining graph learning with deep neural network models.
+    
+                    </p>
+                    <h5>Biography</h5>
+                    <p>
+                    Sujith Ravi, a Staff Research Scientist and Manager at Google, leads the company's large-scale graph-based machine learning platform and on-device machine learning efforts that power natural language understanding and image recognition for products used by millions of people everyday in Search, Gmail, Photos, Android, and YouTube. The machine learning technology enables features such as Smart Reply that automatically suggests replies to incoming emails or chat messages in Gmail, Inbox and Allo; Photos that searches for anything, from "hugs" to "dogs", with the latest image recognition system; and smart messaging directly from Android Wear smartwatches powered by on-device machine learning. His research interests include large-scale inference, unsupervised and semi-supervised learning, on-device machine learning for IoT, conversational AI, computer vision, multimodal learning, and computational decipherment. Dr. Ravi has authored more than 60 scientific publications and patents in top-tier machine learning and natural language processing conferences, and his work won the ACM SIGKDD Best Research Paper Award in 2014. He organizes machine learning symposia/workshops and regularly serves as Area Chair and PC of top-tier machine learning and natural language processing conferences like NIPS, ICML, ACL, EMNLP, COLING, KDD, and WSDM.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <hr>
+
+        <div class="container footer">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
+                    <p align="left">
+                        Copyright &copy; SoCal NLP Symposium 2018
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
