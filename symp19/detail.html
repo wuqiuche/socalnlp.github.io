@@ -59,11 +59,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thumb">
                     <h4>Marjan Ghazvininejad</h4>
                     <hr>
-                    <!--<h5></h5>-->
-                    <!--<p>-->
-
-                    <!--<br/>-->
-                    <!--</p>-->
+                    <h5>Mask-Predict: Parallel Decoding of Conditional Masked Language Models</h5>
+                    <p>
+Most machine translation systems generate text auto-regressively from left to right. In this talk, I propose a masked language modeling objective to train a model to predict any subset of the target words, conditioned on both the input text and a partially masked target translation. This approach allows for efficient iterative decoding, where we first predict all of the target words non-autoregressively, and then repeatedly mask out and regenerate the subset of words that the model is least confident about.<br/>
+By applying this strategy for a constant number of iterations, our model improves state-of-the-art performance levels for non-autoregressive and parallel decoding translation models by over 4 BLEU on average. It is also able to reach within about 1 BLEU point of a typical left-to-right transformer model, while decoding significantly faster.
+                    </p>
                     <h5>Biography</h5>
                     <p>
                         Marjan Ghazvininejad is a Research Scientist in Facebook AI Research. She is interested in text representation, language generation, and machine translation. Her recent focus has been on new approaches for modeling and training of these systems to generate high quality, coherent, and creative text. She received her PhD in 2018 from the University of Southern California under the supervision of Kevin Knight.
