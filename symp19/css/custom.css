@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: normal;
   color: #990000;
+  text-align: left;
 }
 
 a, a:link, a:hover, a:visited, a:active {
@@ -124,6 +125,12 @@ table {
 
 td {
   padding: 0rem 0rem 0.2rem 0rem;
+  min-width: 140px;
+  text-align: left;
+}
+
+tr {
+  vertical-align: top;
 }
 
 /* This is for publications pages*/
@@ -138,4 +145,8 @@ td {
 
 ul li > span {
   display: block;
+}
+
+ul, ol, p {
+  text-align: left;
 }
